@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
   });
 
-  // Fichas en el aside
+  // Fichas 
   // Nombres de las fichas, no sé cuales son las fichas de este juego porque nunca lo he jugado xd
   const nombresFichas = ["Barquito", "Lancha", "Peñero", "Ferry", "Barco", "Caballo"]; 
   const listaFichas = document.getElementById("lista-fichas");
