@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Royale - UCAB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header style="height: 5vh;">
+        <div style="display: flex;" class="centrar">
+            <div style="display: flex;">
+                <input type="text" style="margin-right: 10px;" placeholder="Usuario"></li>
+                <button style="border-radius: unset; margin-right: 10px;" title="Haz clic aquí para iniciar sesión (aún no lo hace)">Login</button>
+                <button style="border-radius: unset;" title="Haz clic aquí para comenzar a jugar (aún no lo hace)">Jugar</button>
+            </div>
+            
+            <div id="instrucciones" style="color: blue; margin-left: 5px; cursor: pointer;">
+                <u>Instrucciones</u>
+            </div>
+            
+            <!-- Modal -->
+            <div id="modal-instrucciones" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Instrucciones del Juego</h2>
+                    <p>
+                        Aquí irán las instrucciones de como se juega esto y cuales son sus reglas xdxd.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <h2>Fichas de juego</h2>
+            <ul id="lista-fichas"></ul>
+        </aside>        
+        <section>
+            <h2>Tableros de juego</h2>
+            <div class="flex" id="tableros">
+                <div class="tablero tablero-uno" data-casillas="64" style="margin-right: 50px;"></div>
+                <div class="tablero tablero-dos" data-casillas="64"></div>
+            </div>
+        </section>        
+    </main>
+    <footer>
+        <p>&copy; 2024 Programación Orientada a la Web - UCAB. Todos los derechos reservados.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
